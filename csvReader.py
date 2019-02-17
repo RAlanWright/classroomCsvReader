@@ -1,7 +1,7 @@
 import csv
 
 # Python with open will auto-close after finished executing
-with open('2-13-19-grades.csv', encoding='utf-8') as f:
+with open('fileName.csv', encoding='utf-8') as f:
     reader = csv.reader(f)
     reader = list(reader) # Need to convert to a list to index / slice it
     # writer = csv.writer(csvfile) # To be used to generate a separate csv file; not currently implemented
